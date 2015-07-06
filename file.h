@@ -1,2 +1,4 @@
-#define HELLO "hello"
-#define WORLD "world"
+
+
+#define HELLO "Hello"
+#define WORLD "World"
