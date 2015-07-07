@@ -2,11 +2,11 @@
 
 CC=gcc
 
-file: file.o
-	$(CC) -o file file.o
+hello: hello.o
+	$(CC) -o hello hello.o
 
-file.o: file.c file.h
-	$(CC) -c file.c
+hello.o: hello.c hello.h
+	$(CC) -c hello.c
 
-test: file
-	./file
+test: hello
+	./hello

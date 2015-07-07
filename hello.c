@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "file.h"
+#include "hello.h"
 
 void usage() {
 	printf("Hello world program\n");
