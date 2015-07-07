@@ -5,12 +5,12 @@
 
 void usage() {
 	printf("Hello world program\n");
-	printf("  - Just Run it");
+	printf("  - Just Run it\n");
 }
 
 int main(int argc, char *argv[]) {
 
-	if ( argc != 1 && strncmp("-h",argv[0],2) == 0) {
+	if ( argc != 1 && strncmp("-h",argv[1],2) == 0) {
 		usage();
 		exit(-1);
 	}
